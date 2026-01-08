@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Disease Prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🌱 Plant Disease Checker</h1>
+    <p>Upload a photo of your plant leaf to check its health.</p>
+
+    <input type="file" id="imageInput" accept="image/*">
+    <button onclick="predictDisease()">Check Plant Health</button>
+
+    <div id="result" class="result hidden">
+        <h2>🧪 Result</h2>
+        <p><strong>Disease:</strong> <span id="disease"></span></p>
+        <p><strong>Confidence:</strong> <span id="confidence"></span>%</p>
+
+        <h3>📌 Description</h3>
+        <p id="description"></p>
+
+        <h3>🛠 Remedies</h3>
+        <ul id="remedies"></ul>
+
+        <h3>🌿 Care Tips</h3>
+        <ul id="careTips"></ul>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
