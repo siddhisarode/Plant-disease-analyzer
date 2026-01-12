@@ -31,24 +31,28 @@ Plant diseases cause major losses in agriculture if not detected early. This pro
  🏗️ Project Structure
 
 Plant-disease-analyzer/
-├── backend/
+│── backend/            # FastAPI backend
 │   ├── app.py
 │   ├── requirements.txt
 │   └── utils/
-├── frontend/
+│
+│── frontend/           # HTML, CSS, JS frontend
 │   ├── index.html
 │   ├── app.html
 │   ├── style.css
 │   └── script.js
-├── model/
+│
+│── model/              # Trained models
 │   ├── phase1_best_model.h5
 │   └── tomato_disease_model.h5
-├── training/
+│
+│── training/           # Training notebooks & scripts
 │   ├── train_model.ipynb
 │   └── split_dataset.py
-├── dataset/
-├── README.md
-└── .gitignore
+│
+│── dataset/            # Train / Val / Test data (optional)
+│── README.md
+│── .gitignore
 
  ⚙️ Setup Instructions
 
@@ -115,3 +119,4 @@ POST /predict → Predict plant disease from image
 
 Siddhi Sarode  
 GitHub: https://github.com/siddhisarode
+
