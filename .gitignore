@@ -1,4 +1,4 @@
-# Virtual environment
+# Virtual environments
 plantenv/
 venv/
 env/
@@ -10,8 +10,8 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# VS Code (optional)
+# VS Code
 .vscode/
 
-# OS files
+# OS
 .DS_Store
